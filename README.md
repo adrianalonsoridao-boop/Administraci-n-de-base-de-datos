@@ -12,8 +12,12 @@ Actualmente, las prácticas se están desarrollando con el siguiente stack tecno
 * **Sistemas Operativos:**
     * Windows 10
     * Ubuntu
+* **Herramientas:**
+    * phpMyAdmin
+    * Terminal de MySQL (CMD de Windows)
+    * Terminal de Ubuntu
 
-## 📂 Contenido del Repositorio
+## 📂 Contenido del Repostorio
 
 A medida que avance el curso, iré subiendo las diferentes prácticas y proyectos a este repositorio. El contenido incluirá:
 

@@ -11,14 +11,17 @@ Autor: Adrián Alonso Ridao
 Evaluación: 1ª Evaluación 
 
 🎯 Objetivo
+
 El objetivo principal de esta práctica es comprender y aplicar técnicas de optimización de consultas en MySQL. Se utiliza la herramienta EXPLAIN para analizar los planes de ejecución de las consultas y se crean índices para mejorar el rendimiento, reduciendo el número de comparaciones y escaneos de tabla.
 
 🗃️ Esquema de la Base de Datos
+
 La práctica se basa en la base de datos Clientes.sql. A continuación se muestra el diagrama Entidad-Relación:
 
 
 
 📝 Ejercicios Realizados
+
 1. Consultar Índices Existentes
 Se utiliza SHOW INDEX para inspeccionar los índices ya presentes en la tabla producto. Se identifica que codigo_producto es la PRIMARY KEY.
 
@@ -26,6 +29,7 @@ Se utiliza SHOW INDEX para inspeccionar los índices ya presentes en la tabla pr
 SQL
 
 SHOW INDEX FROM producto;
+
 2. Comparación: Consulta Indexada vs. No Indexada
 Se comparan dos consultas SELECT sobre la tabla producto usando EXPLAIN para ver su plan de ejecución.
 
